@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    min-height: 40px;
+    /* width: 50px; */
+    font-size: 20px;
+    margin: 20px;
+    padding: 0px 20px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 13px;
+}
+.input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#context{
+    margin: 0;
+    resize: none;
+    width: 400px;
+    padding-top: 20px;
+    min-height: 200px;
+}
+
+.head{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 10px 50px;
+    width: 90%;
+    align-self: baseline;
+    border-top: 5px solid black;
+}
+.notes{
+    align-self: baseline;
+    width: 90%;
+    margin: 30px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+.title{
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 156, 255);
+}
+.note{
+    /* margin-left: 30px; */
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.submit{
+    font-size: 15px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(77, 77, 77);
+}
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+}
+.delete{
+    margin-right: 20px;
+}
+
+.editcont{
+    display: flex;
+}
+
+.cancel,.update{
+    display: none;
+}
+.titlecont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
