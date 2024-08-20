@@ -40,7 +40,7 @@ A simple and intuitive Notes App built using Node.js, Express, MongoDB, and EJS.
 
 3. **Start the Application**:
     ```bash
-    npm start
+    node main.js
     ```
     The application will be running on `http://localhost:3000`.
 
