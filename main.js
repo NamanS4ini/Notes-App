@@ -73,7 +73,7 @@ app.delete("/delete", (req, res) => {
 
   } catch (error) {
 
-    res.status(500).send("Error: Internal Server Error");
+    res.status(500).send("Error: Internal Server Errors");
   }
 
 })
